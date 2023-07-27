@@ -24,6 +24,8 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <p>Este párrafo es nuevo...</p>
+        <img src='https://www.brandemia.org/wp-content/uploads/2012/10/logo_principal.jpg' alt='Logo Android'/>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
