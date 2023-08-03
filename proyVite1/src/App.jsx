@@ -1,18 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import NavBar from './components/NavBars/NavBar'
-import Home from './components/Home'
+import NavBar from './components/navBars/NavBar'
+import Home from './pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+  /*const [count, setCount] = useState(0)
 
   let titulo1 = 'Inicio'
-
+  */
 
   return (
     <div className='App'>
-      <NavBar/>
-      <Home/>
+        <NavBar/>
+        <Home/>
     </div>
   )
 

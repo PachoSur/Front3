@@ -1,5 +1,7 @@
 import React from 'react'
-import imgpizza from '../assets/react.svg'
+import imgpizza from '../assets/pizza_de_mozzarella.jpg'
+import Card from '../components/cards/Card'
+import styles from  './Home.module.css'
 
 const Home = () => {
 
@@ -13,9 +15,9 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className={styles.home}>
         {pizzas.map((pizza) => {
-          <Card plato={pizza} key={pizza.id}/>
+          return <Card plato={pizza} key={pizza.id}/>
         })}
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { titleStyles } from './Navbar.styles'
+import { titleStyles } from './NavBar.styles'
 
 
 const Navbar = () => {
